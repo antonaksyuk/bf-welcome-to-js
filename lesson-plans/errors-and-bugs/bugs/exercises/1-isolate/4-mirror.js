@@ -9,9 +9,9 @@
 
 
   experiment 1
-    line:
-    why:
-    trying:
+    line:25
+    why: each character is plased between "|" devider
+    trying: change subsequence of adding each iteration
 
 */
 
@@ -22,7 +22,7 @@ while (text === null) {
 
 let mirrored = '|';
 for (const character of text) {
-  mirrored = mirrored + character + mirrored;
+  mirrored = character + mirrored + character;
 }
 
 alert(mirrored);

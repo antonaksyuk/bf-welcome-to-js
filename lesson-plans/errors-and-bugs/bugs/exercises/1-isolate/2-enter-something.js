@@ -9,9 +9,9 @@
     'JavaScript' -> 'you entered "JavaScript"'
 
   experiment 1
-    line:
-    why:
-    trying:
+    line:22
+    why: new declaration of variable "input" in while loop
+    trying: delete "const" on line 22
 
 */
 
@@ -19,7 +19,7 @@ let message = '';
 
 let input = null;
 while (input === null || input.length === 0) {
-  const input = prompt('enter something');
+  input = prompt('enter something');
 
   message = 'you entered "' + input + '"';
 }

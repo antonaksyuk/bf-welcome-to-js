@@ -3,28 +3,28 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:hrome
 
-  name:
-  message:
+  name:ReferenceError
+  message:Cannot access 'isValidUserName' before initialization
 
-  location:
+  location:line 24
 
-  life cycle:
+  life cycle:execution phase
 
-  the mistake:
+  the mistake:the variable is declarated and initialisated after loop
 
-  the fix(es):
+  the fix(es): replace variable declaration from line 27 to line 23
 */
 
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
+let isValidUserName;
+
 if (userName.length > 3) {
   isValidUserName = true;
 }
-
-let isValidUserName;
 
 if (userName.length <= 3) {
   isValidUserName = false;

@@ -6,22 +6,22 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:hrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Failed to execute 'appendChild' on 'Node': Invalid left-hand side in assignment
 
-  location:
+  location:line 25
 
-  life cycle:
+  life cycle: creation phase
 
-  the mistake:
+  the mistake:subsequense of reinitializatin wrong
 
-  the fix(es):
+  the fix(es):change subsequence in line 25
 */
 
 let isHappy = false;
 
-true = isHappy;
+isHappy = true;
 
 

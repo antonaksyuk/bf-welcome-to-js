@@ -3,20 +3,20 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:hrome
 
-  name:
-  message:
+  name:ReferenceError
+  message:Cannot access 'tomatoes' before initialization
 
-  location:
+  location:line 20
 
-  life cycle:
+  life cycle:execution phase
 
-  the mistake:
+  the mistake: try console.log variable before declaration and initialization
 
-  the fix(es):
+  the fix(es): replase declaration before console.log
 */
 
-console.log(tomatoes);
-
 let tomatoes = 'fresh';
+
+console.log(tomatoes);

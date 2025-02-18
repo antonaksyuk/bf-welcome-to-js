@@ -5,7 +5,7 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('to-sort', () => {
-  // debugger;
+  debugger;
   console.log('--- form data changed ---');
 
   // --- read the user's input ---
@@ -19,9 +19,7 @@ whenFormDataChanges('to-sort', () => {
   let sortedInputs = '';
   if (left.length <= right.length) {
     sortedInputs = left + ', ' + right;
-  } else if (right.length <= left.length) {
-    sortedInputs = right + ', ' + left;
-  } else {
+  }  else {
     sortedInputs = left + '\n' + right;
   }
 

@@ -3,20 +3,20 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:hrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Failed to execute 'appendChild' on 'Node': Identifier 'tree' has already been declared
 
-  location:
+  location:line 22
 
-  life cycle:
+  life cycle:creation phase
 
-  the mistake:
+  the mistake:redeclaration variable with let
 
-  the fix(es):
+  the fix(es): delete declaration let on line 22
 */
 
 let tree = 'oak';
 
-let tree = 'birch';
+tree = 'birch';

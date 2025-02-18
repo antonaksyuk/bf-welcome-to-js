@@ -6,20 +6,20 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:hrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Failed to execute 'appendChild' on 'Node': Unexpected string
 
-  location:
+  location:line 23
 
-  life cycle:
+  life cycle: creation phase
 
-  the mistake:
+  the mistake: incorrect usage of quotes
 
-  the fix(es):
+  the fix(es): change quotes to ""
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
+const quotesInQuotes = 'remind yourself "i can do this!" at least once a day';
 
 

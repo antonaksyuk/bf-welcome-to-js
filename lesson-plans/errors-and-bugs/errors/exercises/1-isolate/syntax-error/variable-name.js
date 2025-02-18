@@ -7,21 +7,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:hrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Failed to execute 'appendChild' on 'Node': Unexpected number
 
-  location:
+  location:line 25
 
-  life cycle:
+  life cycle: creation phase
 
-  the mistake:
+  the mistake: use number as a name of variable
 
-  the fix(es):
+  the fix(es):change number to a word
 */
 
 
-const 3 = 'three';
+const three = 'three';
 
 

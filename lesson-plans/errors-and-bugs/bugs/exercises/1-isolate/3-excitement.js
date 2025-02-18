@@ -9,9 +9,9 @@
 
 
   experiment 1
-    line:
-    why:
-    trying:
+    line:25
+    why:each iteration not added to result
+    trying: add "+" on line 25
 
 */
 
@@ -22,7 +22,7 @@ while (text === null) {
 
 let excited = '';
 for (const character of text) {
-  excited = character + '!';
+  excited += character + '!';
 }
 
 alert(excited);
